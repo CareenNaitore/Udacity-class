@@ -18,4 +18,4 @@ ul {
 
 3.They can be generated on the head of html known as Internal or **inline CSS** as:
 they are designed as 
-`p background-colour:red;'
+`p background-colour:red;`
