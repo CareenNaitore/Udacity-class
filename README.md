@@ -12,22 +12,22 @@ This is an example of an html code that generates a checkers box it contains the
 A html file has an openning tag and a closing tag eg `<ul> </ul>`
 The documents containing html files are in .html
 `
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Flexbox practice!</title>
-    <link rel="stylesheet" href="C:\Users\User\Documents\udacity\flexbox_practice_style.css">
-  </head>
-  <body>
-   <div class= "container">
-     <div class="box red"></div>
-     <div class="box black"></div>
-     <div class="box black"></div>
-     <div class="box red"></div>
-    </div>
-  </body>
-</html>
+!DOCTYPE html
+html lang="en"
+  head
+    meta charset="utf-8">
+    title Flexbox practice! /title
+    link rel="stylesheet" href="C:\Users\User\Documents\udacity\flexbox_practice_style.css"
+  /head
+  body
+   div class= "container"
+     div class="box red"></div
+     div class="box black"></div
+     div class="box black"></div
+     div class="box red"></div
+    /div
+  /body
+/html
 `
 
 ## 2 CSS
@@ -38,18 +38,14 @@ The css documents are of three types:
 `<link rel= stylesheet href=url>`
 2.They can be generated on the head of html known as Internal or **Embedded CSS** as:
 they are designed as 
-`
-<style>
+`<style>
 ul { 
      padding:0;
 }     
-</style>
-`
+</style>`
 3.They can be generated on the head of html known as Internal or **inline CSS** as:
 they are designed as 
-
-` 
-<p background-colour:red;>
+`<p background-colour:red;>`
 
 `
 Folders involved in the projects:
