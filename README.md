@@ -27,7 +27,8 @@ The documents containing html files are in .html
      <div class="box red"></div>
     </div>
   </body>
-</html>`
+</html>
+`
 
 ## 2 CSS
 Also we were taught by karl and kelly on the beautification style of CSS (cascading sheet style). This language is used together with html to make it more beautiful
