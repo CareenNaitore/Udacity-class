@@ -1,4 +1,4 @@
-# HTML 
+# HTML (Hypertext markup language)
 In this class we were taught by karl and Kelly. They took us through the proper build block of a HTML code:
 This is an example of an html code that generates a checkers box it contains the fundamntal structure of a html code:
 1. DOCTYPE html
