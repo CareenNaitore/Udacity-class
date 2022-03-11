@@ -1,0 +1,54 @@
+/* add your CSS here */
+h3{
+    font-size: 32px;
+    font-family: sans-serif;
+}
+img {
+    width: 400px;
+    height: 300px
+    
+
+  }
+ 
+    ul{
+        padding: 0;
+        margin: 0;    
+        text-align: left;
+       list-style-position: outside;
+       list-style-type:none;
+       margin-top: 0.6em; 
+       margin-bottom: 0.6em;
+    }
+    li{
+        list-style-position: outside;
+        font-size: 14px;
+        font-family: sans-serif;
+        
+    }
+    span{
+        font-weight:bolder;
+        font-size:16px;
+        font-family: Helvetica;
+        text-align: left;
+    }
+    p{
+        margin-top: 0.6em; 
+        margin-bottom: 0.6em;
+        font-size:14px;
+        font-family: sans-serif;  
+    }
+    .placeholder{
+        width: 500px;
+        height: 1000px;
+        display: flex;
+        flex-wrap: wrap;
+     }
+
+     .container{
+        width: 500px;
+        height:500px;
+        text-align:left;
+        display: flex;
+        flex-wrap: wrap;
+        border: 1px solid black;
+    

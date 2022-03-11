@@ -1,0 +1,103 @@
+<html>
+<head>
+<style>
+.special {
+    color: purple;
+}
+p {
+    font-style: italic;
+}
+#important-information {
+    font-weight: bold;
+}
+</style>
+</head>
+<body>
+
+<h1 class = "special">This header is special</h1>
+<p>A nice paragraph in italics.</p>
+<h1>This header isn't so special.</h1>
+<p>And this paragraph will be in italics too!</p>
+<p id = "important-information">This paragraph needs to be italicized and bolded!</p>
+
+</body>
+</html>
+<!--differentiating type, class, id selectors-->
+<style>
+    li {
+      font-size: 1.5em;
+    }
+    .highlight{
+       background-color: yellow;
+      font-weight: bold;
+      color: red;
+    }
+    #done{text-decoration: line-through;
+    }
+  </style>
+  <h1>To-do:</h1>
+  <ul>
+    <li id = done>Buy milk
+    <li>Buy eggs
+    <li id = done>Buy flour
+    <li class = highlight id = done >Make waffles
+    <li>Do laundry
+    <li class = highlight>Learn to code
+    <li class = highlight>Build a robot
+  </ul>
+<!--style of the background-->
+  <style>
+    body { color: red; }
+    p { color: blue; }
+</style>
+<body>
+    <p> This will be blue, not red. <br>
+        <em> Same with this. </em> </p>
+</body>
+
+<!--div element-->
+<style>
+  .fancybox{
+  border: 5px solid green;
+  margin: 1em;
+  padding: 0.5em;
+  width: 100px;
+  height: 50px;
+  float: right;
+}
+</style>
+<div class=" fancybox">
+  element
+</div>
+<!--styling in a box -->
+<style>
+  .fancybox{
+  border: 10px solid blue;
+  padding: 0.5em;
+  width: 150px;
+  height: 100px;
+  }
+</style>
+  <div class="fancybox">
+  Hooray a box!
+</div>
+
+<!--interpreting percentage-->
+<style>
+  .outer {
+          width: 300px;
+          border: 5px dotted orange;
+  }
+  
+  .inner {
+          border: 5px solid blue;
+          width: 50%;
+  }
+  </style>
+  <div class="outer">
+          <p> This box has a box inside!
+          <div class="inner">
+                  <p> How wide is the inner box,
+                  <em>including</em> its border?
+          </div>
+  </div>
