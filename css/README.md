@@ -8,17 +8,17 @@ The css documents are of three types:
 
 2.They can be generated on the head of html known as Internal or **Embedded CSS** as:
 they are designed as 
-`
+
 <style>
 ul { 
      padding:0;
 }     
 </style>
-`
+
 
 3.They can be generated on the head of html known as Internal or **inline CSS** as:
 they are designed as 
 
-` 
+ 
 <p background-colour:red;>
-`
+
