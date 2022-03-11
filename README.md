@@ -30,7 +30,7 @@ The documents containing html files are in .html
       `</html>`
 `
 
-## 2 CSS
+## 2. CSS
 Also we were taught by karl and kelly on the beautification style of CSS (cascading sheet style). This language is used together with html to make it more beautiful
 and attractive to the view 
 The css documents are of three types:
