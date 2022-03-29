@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+<h1> malnutrition Form</h1>
+<h2>Demographic information</h2>
+</head>
+<body>
+<form>
+    <!--information about the house hold-->
+    <P>
+        <label for="fname"><strong>Household head name:</strong></label>
+        <input type="text" id="hname" name="hname">
+        <input type="submit"> 
+    
+    <p>
+        <p><strong>Gender</strong></p>
+           <input type="checkbox" id="male" name="male" value="male">
+            <label for="Gender"> <strong>Male</strong> </label><br>
+            <input type="checkbox" id="female" name="female" value="female">
+            <label for="gender"> <strong> Female </strong> </label><br>
+        </p>  
+        <p>  
+            <label for="phone"><strong>Phone number: </strong></label><br><br>
+            <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br><br>
+            <small>Format: 123-45-678</small><br><br>
+            <input type="submit">
+        </p>  
+    <!--total number of children under the age of 5-->
+    <p> 
+            <label for="quantity"> <strong>Number of children:</strong></label>
+            <input type="number" id="quantity" name="quantity">
+            <input type="submit">
+    </p>
+    <!--information about the children-->  
+    <h3><em>information for children under 5 years</em></h3>  
+    <p> 
+        <label for="fname"><strong>Child's name:</strong></label>
+        <input type="text" id="cname" name="cname">
+        <input type="submit"> 
+    </p>
+    <p> 
+        <label for="quantity"> <strong>Age:</strong></label>
+        <input type="number" id="quantity" name="quantity" min="1" max="5">
+        <input type="submit">
+    </p>
+    
+    <p>
+        <label for="date of birth"><strong>Date of birth:</strong></label>
+        <input type="date" id="birthday" name="birthday">
+        <input type="submit">
+    </p>
+   
+    <p>
+        <p><strong>Gender</strong></p>
+        <input type="checkbox" id="male" name="male" value="male">
+        <label for="male"> <strong>Male</strong> </label><br>
+        <input type="checkbox" id="female" name="female" value="female">
+        <label for="female"> <strong> Female </strong> </label><br>
+    </p>
+
+    <!--information on the women available-->
+    
+    <P> <em>This information is to be filled only for women </em></P>
+    <p> 
+        <label for="quantity"> <strong>Number of women (Age:15-49):</strong></label>
+        <input type="number" id="quantity" name="quantity">
+        <input type="submit">
+    </p>
+    <P>
+        <label for="fname"><strong> Female names:</strong></label>
+        <input type="text" id="fname" name="fname">
+        <input type="submit"> 
+    </P>
+    <p> 
+        <label for="quantity"> <strong>Age:</strong></label>
+        <input type="number" id="quantity" name="quantity" min="0" max="99">
+        <input type="submit">
+    </p>
+    
+    <p>
+        <label for="martial status"><strong>Marital status:</strong></label>
+        <select id="marital status" name="marital status">
+          <option value=""></option>
+          <option value="married">Married</option>
+          <option value="single">Single</option>
+          <option value="Divorced">Divorced</option>
+        </select>
+        <input type="submit">
+    </p>
+    <p>
+        <label for="pregnancy status"><strong>Pregrancy status:</strong></label>
+        <select id="pregnacy status" name="pregnancy status">
+         <option value=""></option>
+          <option value="no">no</option>
+          <option value="yes">yes</option>
+        </select>
+        <input type="submit">
+    </p>
+    <h3>Questionaires <strong>be filled must be filled</strong> </h3>
+    
+    <P>
+        <label for="text"><strong>Source of water:</strong></label>
+        <select id="sources" name="sources">
+        <option value=""></option>
+        <option value="tap">Tap</option>
+        <option value="well">well</option>
+        <option value ="spring">Spring</option>
+        <option value="stream">Stream</option>
+        <option value="others">others</option>
+        </select>
+        <input type="submit"> 
+    </P>
+    
+    <p>
+        <label for="text"><strong>Source of water:</strong></label>
+        <select id="sources" name="sources">
+        <option value=""></option>
+        <option value="tap">Tap</option>
+        <option value="well">well</option>
+        <option value ="spring">Spring</option>
+        <option value="stream">Stream</option>
+        <option value="others">Others</option>
+        </select>
+        <input type="submit"> 
+   </p>
+   <p>
+    <label for="text"><strong>Distance to the water source:</strong></label>
+    <select id="sources" name="sources">
+    <option value=""></option>
+    <option value="tap">less than a kilometer</option>
+    <option value="well"> one and a half kilometers</option>
+    <option value ="spring">more than 2 kilometers</option>
+    </select>
+    <input type="submit"> 
+   </p>
+    
+   <p>
+        <label for="source"><strong>Do they use drying racks:</strong></label>
+        <select id="status" name="status">
+          <option value=""></option>
+          <option value="no">no</option>
+          <option value="yes">yes</option>
+        </select>
+        <input type="submit">
+    </p>
+    
+    <p>
+        <label for="source"><strong>Do they have a rubish pit:</strong></label>
+        <select id="status" name="status">
+          <option value=""></option>          
+          <option value="no">no</option>
+          <option value="yes">yes</option>
+        </select>
+        <input type="submit">
+    </p>
+    
+    <p>
+        <label for="source"><strong>Do they use mosquito net:</strong></label>
+        <select id="status" name="status">
+        <option value=""></option>  
+        <option value="no">no</option>
+          <option value="yes">yes</option>
+        </select>
+        <input type="submit">
+    </p>
+    
+    <p>
+        <label for="source"><strong>Do they have a kitchen:</strong></label>
+        <select id="status" name="status">
+          <option value=""></option>
+          <option value="no">no</option>
+          <option value="yes">yes</option>
+        </select>
+        <input type="submit">
+    </p>
+    <p>
+        <label for="text"><strong>Methods used for cooking:</strong></label>
+        <select id="sources" name="sources">
+        <option value=""></option>
+        <option value="Boiling">Boiling</option>
+        <option value="steaming">Steaming</option>
+        <option value ="Roasting">Roasting</option>
+        <option value="others">others</option>
+        </select>
+        <input type="submit"> 
+    </p>
+ <h3><strong> Assess the child for nutrition using Mid Upper Arm circumference (MUAC) </strong></h3>
+
+ <p>
+    <label for="source"><strong> Breastfeeding mother:</strong></label>
+    <select id="status" name="status">
+      <option value=""></option>
+      <option value="no">no</option>
+      <option value="yes">yes</option>
+    </select>
+    <input type="submit">
+</p>
+<p>
+    <label for="source"><strong>Does the child have oedema:</strong></label>
+    <select id="status" name="status">
+      <option value=""></option>
+      <option value="no">no</option>
+      <option value="yes">yes</option>
+      <input type="submit">
+    </select>
+    <label for="source"><strong> if yes</strong></label>
+    <select id="status" name="status">
+      <option value=""></option>
+      <option value="status">Oedema+ </option>
+      <option value="status">Oedema++ </option>
+      <option value="status">Oedema+++ </option>
+    </select>
+    <input type="submit">
+</p>
+<p> 
+    <label for="quantity"> <strong> weight of the child in Kgs:</strong></label>
+    <input type="number" id="quantity" name="quantity">
+    <input type="submit">
+</p>
+
+<p> 
+    <label for="quantity"> <strong> child's MUAC cm:</strong></label>
+    <input type="number" id="quantity" name="quantity">
+    <input type="submit">
+</p>
+<!--generates the colour for the MAUC-->
+<form action="/action_page.php">
+      <label for="quantity"> <strong> colour of the MAUC reading:</strong></label>
+            <select id="status" name="status">
+                  <option value=""></option>
+                  <option value="color">red</option>
+                  <option value="">yellow</option>
+                  <option value="">green</option>
+                  <input type="color" id="favcolor" name="favcolor" value="#ffffff"><br><br> <input type="submit">
+</form>
+<p><strong><u>If the child’s MUAC is in red still a notification of emergency should show up for referral</u></strong></p>
+<p>
+<strong>Message to the care giver (this is a guide the health volunteer can tell to the child’s care giver)</strong>
+<p>Your child needs food from 2 or three of the different food groups at every meal.<br> 
+    In addition to the breast milk ensure that your child is feed on some of these foods as regularly as possible 
+    Such as: 
+    <ul>
+       <li>meats</li> 
+       <li>fish</li>
+       <li>chicken</li>
+       <li>eggs</li>
+       <li>beans</li>
+       <li>peas</li>
+       <li>vegetables</li>
+       <li>fruits</li>
+    </ul>
+    These foods are important for your child's proper growth<br>
+
+<p>
+        <label for="text"><strong>foods feed to the baby in 24 hrs:</strong></label>
+        <select id="sources" name="sources">
+        <option value=""></option>
+        <option value="o">0</option>
+        <option value="1">1</option>
+        <option value ="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">&gt;5</option>
+        </select>
+        <input type="submit"> 
+</p>
+
+</p>
+</form> 
+</body>
+</html>
