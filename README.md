@@ -108,4 +108,4 @@ Folders involved in the projects:
 1. HTML: contains html files 
 2. css: contains css files
 3. Assignment:animal-trading-cards-masters
-4.python
+4. Python: contains python files 
