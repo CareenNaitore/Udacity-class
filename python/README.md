@@ -10,10 +10,12 @@ We got to ldo a project on python the adventure game is a text game that employe
 3. The ability to engage with the games.
 
 Example of a python code used in the study
-`Import the turtle module.`
+
+`#Import the turtle module.`
+
 `import turtle`
 
-`Create a new turtle named amy.`
+`#Create a new turtle named amy.`
 
 `amy = turtle.Turtle()`
 
@@ -36,4 +38,4 @@ Example of a python code used in the study
 `amy.right(90)`
 
 `amy.forward(100)`
-`
+
