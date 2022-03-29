@@ -13,18 +13,18 @@ Example of a python code used in the study
 `Import the turtle module.'
 `import turtle'
 
-'Create a new turtle named amy.'
-'amy = turtle.Turtle()'
+`Create a new turtle named amy.'
+`amy = turtle.Turtle()`
 
-'Set amy's color.'
-'amy.color("yellow")'
+`Set amy's color.`
+`amy.color("yellow")`
 
-`Have amy draw a square'
-'amy.forward(100)'
-'amy.right(90)'
-'amy.forward(100)'
-'amy.right(90)'
-'amy.forward(100)'
-'amy.right(90)'
-'amy.forward(100)'
+`Have amy draw a square`
+`amy.forward(100)`
+`amy.right(90)`
+`amy.forward(100)`
+`amy.right(90)`
+`amy.forward(100)`
+`amy.right(90)`
+`amy.forward(100)`
 `
