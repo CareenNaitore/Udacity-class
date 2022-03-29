@@ -13,20 +13,35 @@ A html file has an openning tag and a closing tag eg `<ul> </ul>`
 The documents containing html files are in .html
 
 `<!DOCTYPE html>`
+
 `<html lang="en">`
+   
    `<head>`
+     
      `<meta charset="utf-8">`
-      `<title Flexbox practice! /title>`
+     
+     `<title Flexbox practice! /title>`
+        
         `<link rel="stylesheet" href="C:\Users\User\Documents\udacity\flexbox_practice_style.css">`
-         `</head>`
-             `<body>`
+        
+        `</head>`
+            
+            `<body>`
+                 
                  `<div class= "container">`
+                   
                    `<div class="box red"></div>`
+                    
                     `<div class="box black"></div>`
-                      `<div class="box black"></div>`
-                        `<div class="box red"></div>
+                     
+                     `<div class="box black"></div>`
+                       
+                       `<div class="box red"></div>
+    
     `</div>`
+     
      `</body>`
+      
       `</html>`
 `
 
@@ -49,7 +64,48 @@ ul {
 they are designed as 
 `<p background-colour:red;>` 
 
+## 3.python (introduction)
+In this course, we were introduced to python in an adventure way we employed 
+the various packages in python to learn python. Python is an interactive mode on the terminal.
+we used the python3 in this study and we were able to determine the different data sets: strings, lists
+dictionary and sets. Also we learnt to manipulate this various dataset through spliting and also through ranges.
+We got to ldo a project on python the adventure game is a text game that employed:
+1. packages in python 
+2. concept taught in this class
+3. The ability to engage with the games.
+
+Example of a python code used in the study
+
+`#Import the turtle module.`
+
+`import turtle`
+
+`#Create a new turtle named amy.`
+
+`amy = turtle.Turtle()`
+
+`Set amy's color.`
+
+`amy.color("yellow")`
+
+`#Have amy draw a square`
+
+`amy.forward(100)`
+
+`amy.right(90)`
+
+`amy.forward(100)`
+
+`amy.right(90)`
+
+`amy.forward(100)`
+
+`amy.right(90)`
+
+`amy.forward(100)`
+
 Folders involved in the projects:
 1. HTML: contains html files 
 2. css: contains css files
 3. Assignment:animal-trading-cards-masters
+4.python
