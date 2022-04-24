@@ -1,8 +1,8 @@
 # MY-PYTHON-ROCK-PAPER-SCISSORS-GAME
-This is the repository i created for the second udacity python tutorial project.
+This repository was designed for the second assignment udacity python tutorial project.
 
 It contains one file called **_rps.py_**. Inside the file are the python lines of codes that made the game playable as directed by the udacity intro to programming course team .
 
-Anyone interested can use it as a guide to implement his or her own **rock paper scissors** game.
+it is a famous game for  **rock paper scissors**.
 
 **THANK YOU**
