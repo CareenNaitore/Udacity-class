@@ -104,8 +104,30 @@ Example of a python code used in the study
 
 `amy.forward(100)`
 
+## 5.Javascript 
+In this course were trained on using javascript and how useful it can be in designing the html website and css language. How the language has the same syntax as other languages such as python, bash and many others. we got to learn the different formulas and functions used in javascript to solve the day to day problems 
+we were tasked with designing this project:
+### Pixel Art Maker Project
+
+#### Table of Contents
+
+* [Instructions](#instructions)
+* [Contributing](#contributing)
+
+#### Instructions
+
+To get started, open `designs.js` and start building out the app's functionality.
+
+For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+
+#### Contributing
+
+This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+
+
 Folders involved in the projects:
 1. HTML: contains html files 
 2. css: contains css files
 3. Assignment:animal-trading-cards-masters
 4. Python: contains python files 
+5. Pixel Art Maker Project
