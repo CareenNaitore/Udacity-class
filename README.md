@@ -64,7 +64,7 @@ ul {
 they are designed as 
 `<p background-colour:red;>` 
 
-## 3.python (introduction)
+## 3.python
 In this course, we were introduced to python in an adventurous way we employed 
 the various packages in python to learn python. Python is an interactive mode on the terminal.
 we used the python3 in this study and we were able to determine the different data sets: strings, lists
@@ -104,7 +104,7 @@ Example of a python code used in the study
 
 `amy.forward(100)`
 
-## 5.Javascript 
+## 4.Javascript 
 In this course were trained on using javascript and how useful it can be in designing the html website and css language. How the language has the same syntax as other languages such as python, bash and many others. we got to learn the different formulas and functions used in javascript to solve the day to day problems 
 we were tasked with designing this project:
 ### Pixel Art Maker Project
