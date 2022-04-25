@@ -1,6 +1,6 @@
 # UDACITY CLASS 
-THIS is a project i was able to acquire for generating soft skills on udacity class currently we are being prepared for class in HTML,CSS, python and java 
-The class is introduction to software enginerring courses 
+This is a project i was able to acquire for generating soft skills from different progrmas such as HTML,CSS, python and java 
+The class is introduction to programming courses 
 This includes:
 ## 1.HTML 
 In this class we were taught by karl and Kelly. They took us through the proper build block of a HTML code:
